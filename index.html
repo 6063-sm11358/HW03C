@@ -1,26 +1,68 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="https://cdn.jsdelivr.net/npm/p5@1.7.0/lib/p5.js"></script>
-    <script src="sketch.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
+    <title> Shashwat - HW03C Site </title>
     <style>
-      * {
-        box-sizing: border-box;
-      }
-      html, body {
+      body,html
+      {
+        padding: 0;
         margin: 0;
       }
-      canvas {
-        display: block;
-      }
-      #main {
-        display: block;
-        width: 100%;
+      #main
+      {
+        background-color: #121212;
+        margin: 0;
+        padding: 0;
+        width: 100vw;
         height: 100vh;
+      }
+      #header
+      {
+        font-family: "Rubik", sans-serif;
+        font-size: 28px;
+        color: #FFA500;
+        padding-top: 2%;
+        padding-left: 2%;
+      }
+      #content
+      {
+        font-family: "Rubik", sans-serif;
+        font-size: 18px;
+        color: #EBEBEB;
+        padding-top: 2%;
+        padding-left: 2%;
+        margin-right: 50%;
+      }
+      .links
+      {
+        text-decoration: none;
+        color: #EBEBEB;
+      }
+      .links:hover
+      {
+        color: #FFA500;
+        transition: 0.2s ease-in-out;
       }
     </style>
   </head>
   <body>
-    <main id="main"></main>
+    <div id = "main">
+      <div id = "header"> HW03C Mini-Site </div>
+      <br>
+      <div id = "content">
+        As this exercise involves experimentation with the total number of points, I've created a mini-site for this, so as to keep just one working repo, but to distribute out the links w.r.t. the point quantities. Please choose the point quantities from the list below:
+        <br>
+        <br>
+        >> <a href="./50P/index.html" class="links"> &nbsp50 Points </a>
+        <br>
+        >> <a href="./60P/index.html" class="links"> &nbsp60 Points </a>
+        <br>
+        >> <a href="./90P/index.html" class="links"> &nbsp90 Points </a>
+        <br>
+        >> <a href="./100P/index.html" class="links"> &nbsp100 Points </a>
+        <br>
+        >> <a href="./1000P/index.html" class="links"> &nbsp1000 Points </a>
+    </div>
   </body>
 </html>
