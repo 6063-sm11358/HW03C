@@ -1,1 +1,3 @@
 # ReadMe - HW03C Working Document
+
+This exercise is expecting us to generate 50 circles spread evenly over the canvas, which are connected to each other by straight lines. For this exercise, I'm considering my canvas to be the viewport's width and height. My interpretation for this exercise is that every circle is connected to ***every other*** circle by a straight line, something like the below image:
