@@ -26,5 +26,13 @@ for(let i=1;i<=maxCircles;i++)            //looping to generate 50 circles
 3. drawing circles using the generated values
 4. pushing generated x-coordinate value into *circlePosX* array
 5. pushing generated y-coordinate value into *circlePosY* array
+<br>
+<font size = 12px> Logic Used For Line Generation: </font>
+<img src = './HW03C_Logic.jpg' width = 40% height = 40%>
 
-<img src = './HW03C_Logic.JPG' width = 75% height = 75%>
+1. Looping through both arrays
+2. Generating lines joining the centers of circles
+
+This was a really interesting exercise, and I had quite a lot of fun while figuring out the code for this.
+
+The line-generation code took some time, as my loop was initially just generating 2 lines per circle. Realized that I was incrementing both *i* and *j* at the same time inside the loop, and had it rectified to produce the correct array indices.
