@@ -6,7 +6,7 @@ This exercise is expecting us to generate 50 circles spread evenly over the canv
 
 The above image is my interpretation and ***not*** the actual generated image.
 
-As this exercise entails experimenting with different no.of circles, I've created a mini-site for this exercise, with different pages for all the different quantity options.
+As this exercise entails experimenting with different no.of circles, I've created a mini-site for this exercise, with different pages for all the different quantity options, and with their respective line connections.
 
 I've created one variable for the circle quantity, and have initialized 2 empty arrays that'll be storing the circles' *x* and *y* coordinates, respectively.
 
@@ -36,3 +36,5 @@ for(let i=1;i<=maxCircles;i++)            //looping to generate 50 circles
 This was a really interesting exercise, and I had quite a lot of fun while figuring out the code for this.
 
 The line-generation code took some time, as my loop was initially just generating 2 lines per circle. Realized that I was incrementing both *i* and *j* at the same time inside the loop, and had it rectified to produce the correct array indices.
+
+PS: The 1000 Points & Line code will take up some time to generate the connections, and might make your browser unresponsive. Google Chrome's GPU & Battery usage *will* spike up during the render and display process.
